@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    min-height: 100vh;
+  }
+  main {
+    min-height: 100vh;
+    background-color: $color-principal;
+  }
+  .btn-form , .btn-buy {
+    background-color:$color-secundario;
+    :hover {
+        background-color: #d320916e;
+        color: white;}
+     
+  }
+  .img-ventas, .img-tazas,.img-poleras {
+    width: 400px;
+    height: 350px;
+   }
+   .presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .logopresentacion {
+    width: 100px;
+    height: 100px;
+  }
+ 
+  ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  h1 {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .card p,
+h2, h3 {
+  text-align: center;
+  margin: 5px 3px;
+}
+iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    width: 100%;
+    min-height: 315px;}
+    
+    @media only screen and (max-width: 915px) {
+      .w-50 {
+        width: 80% !important;
+      }
+      .col-4 {
+        width: 100%;
+      }
+    }

@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-borde-rojo {
+  border: 2px solid red;
+  width: 450px;
+  margin-left: 5px;
+  background-color: papayawhip;
+}
+
+.card-borde-azul {
+  border: 2px solid blue;
+  width: 450px;
+  margin-left: 5px;
+  background-color: papayawhip;
+}
+
+.card-borde-bluev {
+  border: 2px solid blueviolet;
+  width: 450px;
+  margin-left: 5px;
+  background-color: papayawhip;
+}
+
+.card-borde-amarillo {
+  border: 2px solid yellow;
+  width: 450px;
+  margin-left: 5px;
+  background-color: papayawhip;
+}
+
+.card-borde-normal {
+  border: 2px solid black;
+  width: 450px;
+  margin-left: 5px;
+  background-color: papayawhip;
+}
+
+.bg-nav {
+  background-color: #f65448;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+  background-color: #f8ebd5;
+}
+
+.btn-form, .btn-buy {
+  background-color: #f65448;
+}
+.btn-form :hover, .btn-buy :hover {
+  background-color: rgba(211, 32, 145, 0.431372549);
+  color: white;
+}
+
+.img-ventas, .img-tazas, .img-poleras {
+  width: 400px;
+  height: 350px;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.logopresentacion {
+  width: 100px;
+  height: 100px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+h1 {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card p,
+h2, h3 {
+  text-align: center;
+  margin: 5px 3px;
+}
+
+iframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+  width: 100%;
+  min-height: 315px;
+}
+
+@media only screen and (max-width: 915px) {
+  .w-50 {
+    width: 80% !important;
+  }
+  .col-4 {
+    width: 100%;
+  }
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f65448;
+}
+
+.logo-discord {
+  width: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
