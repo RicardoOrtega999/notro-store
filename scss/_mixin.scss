@@ -1,20 +1,23 @@
-@mixin card($borde){
-        border: 2px solid $borde;
-        width: 450px;
-        margin-left: 5px;
-        background-color: papayawhip;
-      }
-.card-borde-rojo{
-    @include card (red)
+@mixin card($borde) {
+  border: 2px solid $borde;
+  width: 450px;
+  margin-left: 5px;
+  background-color: #fdf3f9;
+  display: flex;
+  align-items: center;
 }
-.card-borde-azul{
-    @include card (blue )
+.card-borde-rojo {
+  @include card(red);
 }
-.card-borde-bluev{
-    @include card (blueviolet    )
+.card-borde-azul {
+  @include card(blue);
 }
-.card-borde-amarillo{
-    @include card (yellow    )
+.card-borde-bluev {
+  @include card(blueviolet);
 }
-.card-borde-normal{
-    @include card (black)}
+.card-borde-amarillo {
+  @include card(yellow);
+}
+.card-borde-normal {
+  @include card(black);
+}

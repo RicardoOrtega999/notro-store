@@ -8,35 +8,45 @@
   border: 2px solid red;
   width: 450px;
   margin-left: 5px;
-  background-color: papayawhip;
+  background-color: #fdf3f9;
+  display: flex;
+  align-items: center;
 }
 
 .card-borde-azul {
   border: 2px solid blue;
   width: 450px;
   margin-left: 5px;
-  background-color: papayawhip;
+  background-color: #fdf3f9;
+  display: flex;
+  align-items: center;
 }
 
 .card-borde-bluev {
   border: 2px solid blueviolet;
   width: 450px;
   margin-left: 5px;
-  background-color: papayawhip;
+  background-color: #fdf3f9;
+  display: flex;
+  align-items: center;
 }
 
 .card-borde-amarillo {
   border: 2px solid yellow;
   width: 450px;
   margin-left: 5px;
-  background-color: papayawhip;
+  background-color: #fdf3f9;
+  display: flex;
+  align-items: center;
 }
 
 .card-borde-normal {
   border: 2px solid black;
   width: 450px;
   margin-left: 5px;
-  background-color: papayawhip;
+  background-color: #fdf3f9;
+  display: flex;
+  align-items: center;
 }
 
 .bg-nav {
@@ -58,17 +68,27 @@ main {
   background-color: #f8ebd5;
 }
 
-.btn-form, .btn-buy {
+.btn-form,
+.btn-buy {
   background-color: #f65448;
+  width: 150px;
 }
-.btn-form :hover, .btn-buy :hover {
-  background-color: rgba(211, 32, 145, 0.431372549);
+
+.btn:hover {
+  background-color: rgb(71, 71, 71);
   color: white;
 }
 
-.img-ventas, .img-tazas, .img-poleras {
+.img-ventas,
+.img-tazas,
+.img-poleras {
   width: 400px;
   height: 350px;
+}
+
+.img-nosotros {
+  width: 350px;
+  height: 300px;
 }
 
 .presentacion {
@@ -109,8 +129,14 @@ h1 {
   justify-content: space-between;
 }
 
+.price {
+  font-size: large;
+  color: #f65448;
+}
+
 .card p,
-h2, h3 {
+h2,
+h3 {
   text-align: center;
   margin: 5px 3px;
 }
@@ -131,6 +157,17 @@ iframe {
   .col-4 {
     width: 100%;
   }
+  main,
+  header,
+  footer {
+    width: 100%;
+  }
+  .news-cards,
+  .img-ventas,
+  .img-tazas,
+  .img-poleras {
+    max-width: 100%;
+  }
 }
 footer {
   display: flex;
@@ -142,6 +179,56 @@ footer {
 
 .logo-discord {
   width: 30px;
+}
+
+body {
+  background-image: url(../assets/bg404.jpg);
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.error-main {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error {
+  font-size: 120px;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.message-error {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.button-error {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.button-error:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 915px) {
+  body {
+    background-image: url(../assets/error-responsive.jpg);
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
